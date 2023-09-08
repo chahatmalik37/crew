@@ -1,0 +1,42 @@
+CRITICAL - 2023-03-11 04:27:59 --> syntax error, unexpected 'name' (T_STRING), expecting ';' or ','
+in APPPATH/Views/show_report.php on line 30.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('show_report', [], true)
+ 3 APPPATH/Controllers/AttendanceReport.php(618): view('show_report', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->ShowReport('5', '2023-03-10', '2023-03-11')
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 06:57:47 --> A non-numeric value encountered
+in APPPATH/Views/attendance_report.php on line 336.
+ 1 APPPATH/Views/attendance_report.php(336): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Views/attendance_report.php', 336, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance_report.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance_report', [], true)
+ 5 APPPATH/Controllers/AttendanceReport.php(460): view('attendance_report', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 06:58:15 --> A non-numeric value encountered
+in APPPATH/Views/attendance_report.php on line 336.
+ 1 APPPATH/Views/attendance_report.php(336): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Views/attendance_report.php', 336, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance_report.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance_report', [], true)
+ 5 APPPATH/Controllers/AttendanceReport.php(460): view('attendance_report', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 06:58:28 --> A non-numeric value encountered
+in APPPATH/Views/attendance_report.php on line 336.
+ 1 APPPATH/Views/attendance_report.php(336): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Views/attendance_report.php', 336, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance_report.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance_report', [], true)
+ 5 APPPATH/Controllers/AttendanceReport.php(460): view('attendance_report', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

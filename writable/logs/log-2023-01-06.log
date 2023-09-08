@@ -1,0 +1,27 @@
+CRITICAL - 2023-01-06 05:44:33 --> syntax error, unexpected '<', expecting end of file
+in APPPATH/Views/staff_search.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('staff_search', [], true)
+ 3 APPPATH/Controllers/SearchStaff.php(108): view('staff_search', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\SearchStaff->search_data()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchStaff))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 05:44:57 --> syntax error, unexpected '<', expecting end of file
+in APPPATH/Views/staff_search.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('staff_search', [], true)
+ 3 APPPATH/Controllers/SearchStaff.php(108): view('staff_search', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\SearchStaff->search_data()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchStaff))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 05:45:22 --> syntax error, unexpected '<', expecting end of file
+in APPPATH/Views/staff_search.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('staff_search', [], true)
+ 3 APPPATH/Controllers/SearchStaff.php(108): view('staff_search', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\SearchStaff->search_data()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchStaff))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

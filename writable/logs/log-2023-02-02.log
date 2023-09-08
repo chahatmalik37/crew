@@ -1,0 +1,54 @@
+ERROR - 2023-02-02 01:31:53 --> Unknown column 'ns.start' in 'field list'
+CRITICAL - 2023-02-02 01:31:53 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/Dashboard.php on line 44.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Dashboard->loadNotes()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 01:32:36 --> Unknown column 'ns.start' in 'field list'
+CRITICAL - 2023-02-02 01:32:36 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/Dashboard.php on line 44.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Dashboard->loadNotes()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 01:34:42 --> Unknown column 'ns.start' in 'field list'
+CRITICAL - 2023-02-02 01:34:42 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/Dashboard.php on line 44.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Dashboard->loadNotes()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 04:58:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+AND `employee_id` = '6'
+AND `log_type` = 1
+AND date(`created_at`) = '2023-0' at line 5
+CRITICAL - 2023-02-02 04:58:15 --> Cannot use object of type App\Models\Att_Model as array
+in APPPATH/Controllers/Attendance.php on line 45.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->index()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-02 04:59:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc
+AND `employee_id` = '6'
+AND `log_type` = 1
+AND date(`created_at`) = '2023-0' at line 5
+CRITICAL - 2023-02-02 04:59:10 --> Cannot use object of type App\Models\Att_Model as array
+in APPPATH/Controllers/Attendance.php on line 45.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->index()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 05:00:58 --> Call to undefined method App\Models\Att_Model::last
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Attendance.php(31): CodeIgniter\Model->__call('last', [])
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 05:13:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::order_by()
+in APPPATH/Controllers/Attendance.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->index()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

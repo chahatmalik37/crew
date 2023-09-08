@@ -1,0 +1,74 @@
+ERROR - 2023-05-15 01:39:05 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2023-05-15 01:39:05 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 223.
+ 1 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH/Controllers/Renewal.php(118): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Renewal->store()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Renewal))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 01:40:49 --> Class 'App\Models\DashboardXModel' not found
+in APPPATH/Controllers/Renewal.php on line 65.
+ 1 APPPATH/Controllers/Renewal.php(111): App\Controllers\Renewal->insert()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Renewal->store()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Renewal))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 01:57:30 --> DateTime::diff() expects parameter 1 to be DateTimeInterface, null given
+in APPPATH/Views/attendance_report.php on line 227.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'DateTime::diff() expects parameter 1 to be DateTimeInterface, null given', 'APPPATH/Views/attendance_report.php', 227, [...])
+ 2 APPPATH/Views/attendance_report.php(227): DateTime->diff(null)
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance_report.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance_report', [], true)
+ 6 APPPATH/Controllers/AttendanceReport.php(568): view('attendance_report', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 02:04:03 --> DateTime::diff() expects parameter 1 to be DateTimeInterface, null given
+in APPPATH/Views/attendance_report.php on line 227.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'DateTime::diff() expects parameter 1 to be DateTimeInterface, null given', 'APPPATH/Views/attendance_report.php', 227, [...])
+ 2 APPPATH/Views/attendance_report.php(227): DateTime->diff(null)
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance_report.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance_report', [], true)
+ 6 APPPATH/Controllers/AttendanceReport.php(568): view('attendance_report', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 02:10:22 --> DateTime::diff() expects parameter 1 to be DateTimeInterface, null given
+in APPPATH/Views/attendance_report.php on line 227.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'DateTime::diff() expects parameter 1 to be DateTimeInterface, null given', 'APPPATH/Views/attendance_report.php', 227, [...])
+ 2 APPPATH/Views/attendance_report.php(227): DateTime->diff(null)
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance_report.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance_report', [], true)
+ 6 APPPATH/Controllers/AttendanceReport.php(568): view('attendance_report', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 02:11:44 --> Call to a member function format() on null
+in APPPATH/Views/attendance_report.php on line 231.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance_report', [], true)
+ 4 APPPATH/Controllers/AttendanceReport.php(568): view('attendance_report', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 02:15:38 --> DateTime::diff() expects parameter 1 to be DateTimeInterface, null given
+in APPPATH/Views/attendance_report.php on line 227.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'DateTime::diff() expects parameter 1 to be DateTimeInterface, null given', 'APPPATH/Views/attendance_report.php', 227, [...])
+ 2 APPPATH/Views/attendance_report.php(227): DateTime->diff(null)
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance_report.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance_report', [], true)
+ 6 APPPATH/Controllers/AttendanceReport.php(568): view('attendance_report', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,22 @@
+CRITICAL - 2023-01-27 01:10:36 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/designation.php on line 64.
+ 1 APPPATH/Views/designation.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/designation.php', 64, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/designation.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('designation', [], true)
+ 5 APPPATH/Controllers/OnceDesignation.php(32): view('designation')
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\OnceDesignation->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnceDesignation))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 01:11:32 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/designation.php on line 64.
+ 1 APPPATH/Views/designation.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/designation.php', 64, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/designation.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('designation', [], true)
+ 5 APPPATH/Controllers/OnceDesignation.php(32): view('designation')
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\OnceDesignation->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnceDesignation))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

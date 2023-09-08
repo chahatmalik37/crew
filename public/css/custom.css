@@ -1,0 +1,169 @@
+
+/*.thumbnail {*/
+/*    display: block;*/
+/*    margin: auto;*/
+/*    line-height: 1.42857;*/
+/*    background-color: #fff;*/
+/*    border: 1px solid #ddd;*/
+/*    border-radius: 3px;*/
+/*    -webkit-transition: border 0.2s ease-in-out;*/
+/*    -o-transition: border 0.2s ease-in-out;*/
+/*    transition: border 0.2s ease-in-out;*/
+/*}*/
+ .icons_rotate{ 
+    
+        transition:  0.6s ease-out;
+        font-size: 16px;
+    }
+    .icons_rotate:hover{
+          -webkit-transform: rotateZ(720deg);
+          -moz-transform: rotateZ(720deg);
+          transform: rotateZ(720deg);
+    }
+    
+ /*   input:invalid {*/
+ /*   background-color: ivory;*/
+ /*   border: none;*/
+ /*   outline: 2px solid red;*/
+ /*   border-radius: 5px;*/
+ /*}*/
+
+/*Overwrite css*/
+.bg-gradient-primary {
+  background-image: linear-gradient(180deg,#467302 10%,#467302 100%) !important;
+}
+.bg-white {
+    background-image: linear-gradient( 180deg ,#f2ffde 10%,#afcc83 100%) !important;
+}
+.header_border {
+    border: 2px solid #467302 !important;
+}
+.btn-primary {
+    background-color: #467302 !important;
+    border-color: #467302 !important;
+}
+.btn-primary:hover {
+    background-color: #406803 !important;
+}
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgb(70 115 2 / 50%) !important;
+
+}
+.top-Line {
+  border-top: 2px solid #467302 !important;
+  opacity: 0.6;
+  width: 10%;
+  display: inline-block;
+      margin: auto;
+        /*margin: 0.9rem 0 !important;*/
+
+}
+.star_wrapper svg{
+      /*margin: 0.9rem 0 !important;*/
+}
+body {
+    color: #565762 !important;
+}
+/*.border {*/
+/*    border: 3px solid #0d2163!important;*/
+/*}*/
+.formborder {
+  border: 2px solid #467302!important;
+}
+
+label {
+  margin-bottom: 0.1rem !important;
+}
+
+  .form-control{
+    border: 1px solid #4b7908 !important;
+}
+.form-switch {
+  padding-left: 3.0em !important;
+  padding-top: 2.1em;
+   font-size: .9rem;
+}
+.form-switch .form-check-input {
+    border: 1px solid #4b7908 !important;
+  }
+.table th{
+    
+    color: #ffffff !important;
+    background-image: linear-gradient( 180deg ,#cfe3b0 10%,#467302 100%) !important;
+}
+.table {
+    color: #000000 !important;
+}
+.table-bordered td, .table-bordered th {
+    border: 2px solid #467302 !important;
+}
+/*.table>:not(caption)>*>* {*/
+/*  padding: 0 0.1rem !important;*/
+/*  padding-left: 2em !important;*/
+/*}*/
+
+.main {
+    /*min-height: 34rem;*/
+        min-height: 490px;
+
+}
+.form-select {
+
+ border: 1px solid #4b7908 !important;
+}
+.form-group {
+  font-size: .875rem;
+}
+/*allotment btn design*/
+ .btn-outline-primary { 
+   color: #467302 !important; 
+  border-color: #467302;
+} 
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active {
+  color: #467302 !important;
+  border-color: #467302 !important;
+    background-color: #afcc83 !important;
+  background-image: linear-gradient( 180deg ,#f2ffde 10%,#afcc83 100%) !important;
+}
+ .btn-outline-primary:hover {
+  color: #fff;
+  background-image: linear-gradient( 180deg ,#f2ffde 10%,#afcc83 100%) !important;
+  background-color: #afcc83 !important;
+  border-color: #467302 !important;
+ }
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.1rem #4673026e !important;
+}
+.page-item.active .page-link {
+    color: #fff !important;
+    background-color: #467302 !important;
+    border-color: #467302 !important;
+}
+.page-link {
+  color: #467302 !important;
+}
+.notes_w {
+  width: 41.6px ;
+} 
+.atte_btn_w {
+  width: 98.21px;
+}
+.topbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #3d3838 !important;
+}
+.input-group-text {
+  border: 1px solid #4b7908 !important;
+}
+.bootstrap-table .fixed-table-container .table thead th .th-fixedwidth  {
+  width: 40px;
+  } 
+
+.bootstrap-table .fixed-table-container .table thead th .th-inner_dayswidth {
+   width: 81px;
+  } 
+.bootstrap-table .fixed-table-container .table thead th .sortable.sortable-center {
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+}

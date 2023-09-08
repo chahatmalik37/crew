@@ -1,0 +1,56 @@
+CRITICAL - 2023-02-15 01:34:43 --> syntax error, unexpected '}', expecting end of file
+in APPPATH/Views/attendance.php on line 319.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 3 APPPATH/Controllers/Attendance.php(70): view('attendance', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-15 01:39:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' strtotime(2023-02-15 13:09:32)) OR `lv`.`status` = 'Pending'' at line 4
+CRITICAL - 2023-02-15 01:39:32 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/Attendance.php on line 53.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->index()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-15 01:46:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '2023-02-15' OR `lv`.`status` = 'Pending'' at line 4
+CRITICAL - 2023-02-15 01:46:44 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/Attendance.php on line 53.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->index()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 03:13:06 --> Invalid argument supplied for foreach()
+in APPPATH/Views/attendance.php on line 312.
+ 1 APPPATH/Views/attendance.php(312): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/attendance.php', 312, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 5 APPPATH/Controllers/Attendance.php(284): view('attendance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->add()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 03:14:37 --> Invalid argument supplied for foreach()
+in APPPATH/Views/attendance.php on line 312.
+ 1 APPPATH/Views/attendance.php(312): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/attendance.php', 312, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 5 APPPATH/Controllers/Attendance.php(284): view('attendance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->add()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 03:16:51 --> Invalid argument supplied for foreach()
+in APPPATH/Views/attendance.php on line 312.
+ 1 APPPATH/Views/attendance.php(312): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/attendance.php', 312, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 5 APPPATH/Controllers/Attendance.php(284): view('attendance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->add()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

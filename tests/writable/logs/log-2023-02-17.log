@@ -1,0 +1,10 @@
+CRITICAL - 2023-02-17 05:38:16 --> Call to undefined function displayError()
+in APPPATH/Views/attendance.php on line 279.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 4 APPPATH/Controllers/Attendance.php(766): view('attendance', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->noteAttendanceAdd()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

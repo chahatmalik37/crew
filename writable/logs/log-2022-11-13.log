@@ -1,0 +1,69 @@
+CRITICAL - 2022-11-13 22:14:15 --> Too few arguments to function App\Controllers\Question::update(), 0 passed in C:\xampp\htdocs\crew\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Question.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Question->update()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Question))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 22:14:16 --> Too few arguments to function App\Controllers\Question::update(), 0 passed in C:\xampp\htdocs\crew\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Question.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Question->update()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Question))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-13 22:51:59 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:51:59 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:51:59 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:51:59 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:51:59 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:51:59 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:51:59 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:51:59 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:51:59 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:53:01 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:53:01 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:53:01 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:53:01 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:53:01 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:53:01 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:53:01 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:53:01 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:53:01 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:54:14 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:54:14 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:54:14 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:54:14 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:54:14 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:54:14 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:54:14 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:54:14 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:54:14 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:07 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:07 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:07 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:07 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:07 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:07 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:07 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:07 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:07 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:07 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:34 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:34 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:34 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:34 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:34 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:34 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:34 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:34 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:34 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:34 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:50 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:50 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:50 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:50 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:50 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:50 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:50 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:50 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:50 --> Column 'ques_id' cannot be null
+ERROR - 2022-11-13 22:55:50 --> Column 'ques_id' cannot be null

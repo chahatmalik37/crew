@@ -1,0 +1,11 @@
+CRITICAL - 2023-01-05 22:52:11 --> Too few arguments to function displayError(), 1 passed in /home/anuvaadan/public_html/crew/app/Views/staff.php on line 48 and exactly 2 expected
+in APPPATH/Helpers/form_helper.php on line 3.
+ 1 APPPATH/Views/staff.php(48): displayError(Object(CodeIgniter\Validation\Validation))
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/staff.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('staff', [], true)
+ 5 APPPATH/Controllers/Employee.php(273): view('staff', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Employee->store()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,167 @@
+ERROR - 2023-03-03 00:36:18 --> Unknown column 'el.to_date' in 'field list'
+CRITICAL - 2023-03-03 00:36:18 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AttendanceReport.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-03 00:37:44 --> Unknown column 'el.to_date' in 'field list'
+CRITICAL - 2023-03-03 00:37:44 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AttendanceReport.php on line 211.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->fetch_emp_detail_with_datewise()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-03 00:38:13 --> Unknown column 'el.to_date' in 'field list'
+CRITICAL - 2023-03-03 00:38:13 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AttendanceReport.php on line 211.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->fetch_emp_detail_with_datewise()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-03 01:39:17 --> Call to a member function diff() on null
+in APPPATH/Views/attendance_report.php on line 135.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance_report', [], true)
+ 4 APPPATH/Controllers/AttendanceReport.php(128): view('attendance_report', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-03 01:44:59 --> array_merge(): Expected parameter 1 to be an array, null given
+in APPPATH/Controllers/AttendanceReport.php on line 120.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, null given', 'APPPATH/Controllers/AttendanceReport.php', 120, [...])
+ 2 APPPATH/Controllers/AttendanceReport.php(120): array_merge(null, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-03 02:09:32 --> Unknown column 'emp.employee_id' in 'where clause'
+CRITICAL - 2023-03-03 02:09:32 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AttendanceReport.php on line 214.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->fetch_emp_detail_with_datewise()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-03 02:09:41 --> Unknown column 'emp.employee_id' in 'where clause'
+CRITICAL - 2023-03-03 02:09:41 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AttendanceReport.php on line 214.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->fetch_emp_detail_with_datewise()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-03 04:30:05 --> Call to a member function diff() on string
+in APPPATH/Views/attendance_report.php on line 181.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance_report', [], true)
+ 4 APPPATH/Controllers/AttendanceReport.php(127): view('attendance_report', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-03 04:32:13 --> Call to a member function diff() on string
+in APPPATH/Views/attendance_report.php on line 182.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance_report', [], true)
+ 4 APPPATH/Controllers/AttendanceReport.php(127): view('attendance_report', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-03 22:29:39 --> Invalid argument supplied for foreach()
+in APPPATH/Views/attendance.php on line 131.
+ 1 APPPATH/Views/attendance.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/attendance.php', 131, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 5 APPPATH/Controllers/Attendance.php(310): view('attendance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->add()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-03 22:52:55 --> Invalid argument supplied for foreach()
+in APPPATH/Views/attendance.php on line 131.
+ 1 APPPATH/Views/attendance.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/attendance.php', 131, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 5 APPPATH/Controllers/Attendance.php(815): view('attendance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->noteAttendanceAdd()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-03 22:54:55 --> Invalid argument supplied for foreach()
+in APPPATH/Views/attendance.php on line 131.
+ 1 APPPATH/Views/attendance.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/attendance.php', 131, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 5 APPPATH/Controllers/Attendance.php(310): view('attendance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->add()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-03 22:56:52 --> Call to a member function get() on null
+in APPPATH/Controllers/Attendance.php on line 88.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->add()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-03 22:57:28 --> Invalid argument supplied for foreach()
+in APPPATH/Views/attendance.php on line 131.
+ 1 APPPATH/Views/attendance.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/attendance.php', 131, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 5 APPPATH/Controllers/Attendance.php(317): view('attendance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->add()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-03 22:58:46 --> Invalid argument supplied for foreach()
+in APPPATH/Views/attendance.php on line 131.
+ 1 APPPATH/Views/attendance.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/attendance.php', 131, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 5 APPPATH/Controllers/Attendance.php(318): view('attendance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->add()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-03 23:06:56 --> Invalid argument supplied for foreach()
+in APPPATH/Views/attendance.php on line 131.
+ 1 APPPATH/Views/attendance.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/attendance.php', 131, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 5 APPPATH/Controllers/Attendance.php(318): view('attendance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->add()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-03 23:11:48 --> Invalid argument supplied for foreach()
+in APPPATH/Views/attendance.php on line 131.
+ 1 APPPATH/Views/attendance.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/attendance.php', 131, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 5 APPPATH/Controllers/Attendance.php(318): view('attendance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->add()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-03 23:11:57 --> Invalid argument supplied for foreach()
+in APPPATH/Views/attendance.php on line 131.
+ 1 APPPATH/Views/attendance.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/attendance.php', 131, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 5 APPPATH/Controllers/Attendance.php(318): view('attendance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->add()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

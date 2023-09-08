@@ -1,0 +1,11 @@
+CRITICAL - 2023-02-14 23:17:05 --> Use of undefined constant lv - assumed 'lv' (this will throw an Error in a future version of PHP)
+in APPPATH/Views/attendance.php on line 313.
+ 1 APPPATH/Views/attendance.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant lv - assumed \'lv\' (this will throw an Error in a future version of PHP)', 'APPPATH/Views/attendance.php', 313, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/attendance.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('attendance', [], true)
+ 5 APPPATH/Controllers/Attendance.php(62): view('attendance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,21 @@
+ERROR - 2023-02-28 05:05:04 --> Unknown column 'el.from_date' in 'field list'
+CRITICAL - 2023-02-28 05:05:04 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AttendanceReport.php on line 145.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-28 05:09:11 --> Unknown column 'el.from_date' in 'field list'
+CRITICAL - 2023-02-28 05:09:11 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AttendanceReport.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-28 05:17:36 --> Unknown column 'el.from_date' in 'field list'
+CRITICAL - 2023-02-28 05:17:36 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/AttendanceReport.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\AttendanceReport->search_report()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceReport))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,89 @@
+ERROR - 2023-01-24 05:44:23 --> Table 'anuvaadan_crew.alloted' doesn't exist
+CRITICAL - 2023-01-24 05:44:23 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/EmailIdController.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\EmailIdController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailIdController))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-24 05:46:46 --> Table 'anuvaadan_crew.once_simcard' doesn't exist
+CRITICAL - 2023-01-24 05:46:46 --> Call to a member function getResultArray() on bool
+in APPPATH/Views/email_allot.php on line 19.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('email_allot', [], true)
+ 4 APPPATH/Controllers/EmailIdController.php(41): view('email_allot', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\EmailIdController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailIdController))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-24 05:48:29 --> Table 'anuvaadan_crew.once_sim' doesn't exist
+CRITICAL - 2023-01-24 05:48:29 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 223.
+ 1 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH/Controllers/SimCard.php(23): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\SimCard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SimCard))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-24 05:48:38 --> Table 'anuvaadan_crew.once_sim' doesn't exist
+CRITICAL - 2023-01-24 05:48:38 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 223.
+ 1 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH/Controllers/SimCard.php(23): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\SimCard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SimCard))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-24 05:48:58 --> Table 'anuvaadan_crew.once_sim' doesn't exist
+CRITICAL - 2023-01-24 05:48:58 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 223.
+ 1 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH/Controllers/SimCard.php(23): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\SimCard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SimCard))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-24 05:50:00 --> Table 'anuvaadan_crew.once_sim' doesn't exist
+CRITICAL - 2023-01-24 05:50:00 --> Call to a member function getRow() on bool
+in SYSTEMPATH/Validation/Rules.php on line 142.
+ 1 SYSTEMPATH/Validation/Validation.php(306): CodeIgniter\Validation\Rules->is_unique('7987458984', 'number', [...], null)
+ 2 SYSTEMPATH/Validation/Validation.php(173): CodeIgniter\Validation\Validation->processRules('simno', 'simno', '7987458984', [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/SimCard.php(96): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\SimCard->store()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SimCard))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-24 05:52:20 --> Table 'anuvaadan_crew.once_sim' doesn't exist
+CRITICAL - 2023-01-24 05:52:20 --> Call to a member function getRow() on bool
+in SYSTEMPATH/Validation/Rules.php on line 142.
+ 1 SYSTEMPATH/Validation/Validation.php(306): CodeIgniter\Validation\Rules->is_unique('7987458984', 'number', [...], null)
+ 2 SYSTEMPATH/Validation/Validation.php(173): CodeIgniter\Validation\Validation->processRules('simno', 'simno', '7987458984', [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/SimCard.php(96): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\SimCard->store()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SimCard))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-24 05:53:22 --> Table 'anuvaadan_crew.once_sim' doesn't exist
+CRITICAL - 2023-01-24 05:53:22 --> Call to a member function getRow() on bool
+in SYSTEMPATH/Validation/Rules.php on line 142.
+ 1 SYSTEMPATH/Validation/Validation.php(306): CodeIgniter\Validation\Rules->is_unique('7987458984', 'number', [...], null)
+ 2 SYSTEMPATH/Validation/Validation.php(173): CodeIgniter\Validation\Validation->processRules('simno', 'simno', '7987458984', [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/SimCard.php(96): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\SimCard->store()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SimCard))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-24 06:03:47 --> Table 'anuvaadan_crew.once_sim' doesn't exist
+CRITICAL - 2023-01-24 06:03:47 --> Call to a member function getRow() on bool
+in SYSTEMPATH/Validation/Rules.php on line 142.
+ 1 SYSTEMPATH/Validation/Validation.php(306): CodeIgniter\Validation\Rules->is_unique('5456465', 'number', [...], null)
+ 2 SYSTEMPATH/Validation/Validation.php(173): CodeIgniter\Validation\Validation->processRules('simno', 'simno', '5456465', [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/SimCard.php(96): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\SimCard->store()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SimCard))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

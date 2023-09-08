@@ -1,0 +1,7 @@
+ERROR - 2023-02-08 02:02:40 --> Unknown column 'emp.lunch_break' in 'field list'
+CRITICAL - 2023-02-08 02:02:40 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/Attendance.php on line 117.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Attendance->add()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

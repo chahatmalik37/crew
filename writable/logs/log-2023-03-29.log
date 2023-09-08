@@ -1,0 +1,24 @@
+CRITICAL - 2023-03-29 02:01:52 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/Report.php on line 228.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Controllers/Report.php', 228, [...])
+ 2 APPPATH/Controllers/Report.php(228): count(null)
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Report->edit_report()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:02:11 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/Report.php on line 228.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Controllers/Report.php', 228, [...])
+ 2 APPPATH/Controllers/Report.php(228): count(null)
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Report->edit_report()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 02:03:50 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/Report.php on line 228.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Controllers/Report.php', 228, [...])
+ 2 APPPATH/Controllers/Report.php(228): count(null)
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Report->edit_report()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

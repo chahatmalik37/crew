@@ -1,0 +1,48 @@
+ERROR - 2023-01-23 02:05:12 --> Table 'anuvaadan_crew.allotment_email' doesn't exist
+CRITICAL - 2023-01-23 02:05:12 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/OnceEmail.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\OnceEmail->index()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnceEmail))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-23 03:22:39 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2023-01-23 03:22:39 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 223.
+ 1 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH/Controllers/SimCard.php(23): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\SimCard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SimCard))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 03:58:09 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/once_email.php on line 86.
+ 1 APPPATH/Views/once_email.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/once_email.php', 86, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/once_email.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('once_email', [], true)
+ 5 APPPATH/Controllers/OnceEmail.php(35): view('once_email')
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\OnceEmail->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnceEmail))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-23 05:37:42 --> Table 'anuvaadan_crew.allotment_email' doesn't exist
+CRITICAL - 2023-01-23 05:37:42 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/OnceEmail.php on line 101.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\OnceEmail->store()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnceEmail))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-23 05:40:12 --> Table 'anuvaadan_crew.allotment_email' doesn't exist
+CRITICAL - 2023-01-23 05:40:12 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/OnceEmail.php on line 101.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\OnceEmail->store()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnceEmail))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-23 05:55:35 --> Table 'anuvaadan_crew.allotment_email' doesn't exist
+CRITICAL - 2023-01-23 05:55:35 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/OnceEmail.php on line 101.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\OnceEmail->store()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnceEmail))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
